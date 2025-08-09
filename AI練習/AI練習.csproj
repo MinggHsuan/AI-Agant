@@ -50,10 +50,14 @@
     <Compile Include="AIResponse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Light\LightTool.cs" />
+    <Compile Include="Tools\Schedule\ScheduleTool.cs" />
+    <Compile Include="Tools\ToolsFunction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

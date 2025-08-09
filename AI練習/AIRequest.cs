@@ -9,7 +9,7 @@ namespace AI練習
     internal class AIRequest
     {
         public List<Content> contents { get; set; }
-        public List<Tool> tools { get; set; }
+        public List<Tool> tools { get; set; } = new List<Tool>();
 
         public class Content
         {
